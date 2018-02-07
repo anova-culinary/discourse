@@ -22,6 +22,9 @@ Discourse::Application.configure do
 
   config.log_level = :info
 
+  # Log to STDOUT as all good Docker applications should
+  config.logger = ActiveSupport::TaggedLogging.new(Logger.new(STDOUT))
+
   if GlobalSetting.smtp_address
     settings = {
       address:              GlobalSetting.smtp_address,
