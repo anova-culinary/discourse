@@ -190,3 +190,6 @@ if ENV["IMPORT"] == "1"
   gem 'redcarpet'
   gem 'sqlite3', '~> 1.3.0'
 end
+
+# https://github.com/tzinfo/tzinfo/wiki/Resolving-TZInfo::DataSourceNotFound-Errors
+gem 'tzinfo-data'
