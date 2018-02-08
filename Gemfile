@@ -41,7 +41,7 @@ gem 'hiredis', '~> 0.6.0'
 gem 'redis', require:  ["redis", "redis/connection/hiredis"]
 gem 'redis-namespace', '~> 1.5.0'
 
-gem 'active_model_serializers', '~> 0.9.0'
+gem 'active_model_serializers', '~> 0.8.0'
 
 gem 'onebox'
 
@@ -86,7 +86,7 @@ gem 'omniauth-oauth2', require: false
 gem 'omniauth-google-oauth2'
 
 gem 'oj', '~> 3.0'
-gem 'pg', '~> 0.0'
+gem 'pg', '0.20'
 gem 'pry-rails', '~> 0.3.0', require: false
 gem 'r2', '~> 0.2.0', require: false
 gem 'rake', '~> 11.3.0'
