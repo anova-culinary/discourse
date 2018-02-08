@@ -10,8 +10,8 @@ if ENV['RAILS_ENV']=='production'
 
   # Unless you know what you are changing, do not change them.
   bind  "unix://#{APP_ROOT}/tmp/sockets/puma.sock"
-  pidfile "#{APP_ROOT}/tmp/pids/puma.pid"
-  state_path "#{APP_ROOT}/tmp/pids/puma.state"
+  pidfile "/tmp/puma.pid"
+  state_path "/tmp/puma.state"
   daemonize false
   preload_app!
 
