@@ -31,7 +31,7 @@ else
   # gem 'railties'
   # gem 'sprockets-rails'
   gem 'rails', '~> 4.2.0'
-  gem 'seed-fu', '~> 2.3.0'
+  gem 'seed-fu', '2.3.6'
 end
 
 gem 'mail'
