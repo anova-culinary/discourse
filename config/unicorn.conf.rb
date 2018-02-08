@@ -6,7 +6,7 @@ ENV['UNICORN_ENABLE_OOBGC'] ||= "1"
 discourse_path = File.expand_path(File.expand_path(File.dirname(__FILE__)) + "/../")
 
 # tune down if not enough ram
-worker_processes (ENV["UNICORN_WORKERS"] || 3).to_i
+worker_processes (ENV["DISCOUFRSE_UNICORN_WORKERS"] || 3).to_i
 
 working_directory discourse_path
 
@@ -103,7 +103,7 @@ before_fork do |server, worker|
       end
     end
 
-    sidekiqs = ENV['UNICORN_SIDEKIQS'].to_i
+    sidekiqs = ENV['DISOURSE_UNICORN_SIDEKIQS'].to_i
     if sidekiqs > 0
       puts "Starting up #{sidekiqs} supervised sidekiqs"
 
