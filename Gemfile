@@ -41,7 +41,7 @@ gem 'hiredis', '~> 0.6.0'
 gem 'redis', require:  ["redis", "redis/connection/hiredis"]
 gem 'redis-namespace', '~> 1.5.0'
 
-gem 'active_model_serializers', '~> 0.8'
+gem 'active_model_serializers', '~> 0.9.0'
 
 gem 'onebox'
 
