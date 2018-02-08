@@ -47,11 +47,11 @@ gem 'onebox'
 
 gem 'http_accept_language', '~> 2.0', require: false
 
-gem 'ember-rails', '~> 0.18.0'
-gem 'ember-source', '~> 2.10.0'
-gem 'ember-handlebars-template', '~> 0.7.0'
-gem 'barber', '~> 0.11.0'
-gem 'babel-transpiler', '0.7.0'
+gem 'ember-rails', '~> 0.0'
+gem 'ember-source', '~> 2.0'
+gem 'ember-handlebars-template', '~> 0.0'
+gem 'barber', '~> 0.0'
+gem 'babel-transpiler', '~> 0.0'
 
 gem 'message_bus', '~> 2.0'
 
