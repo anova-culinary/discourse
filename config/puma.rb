@@ -9,7 +9,7 @@ if ENV['RAILS_ENV']=='production'
   threads 8,8
 
   # Unless you know what you are changing, do not change them.
-  bind  "unix://#{APP_ROOT}/tmp/sockets/puma.sock"
+  bind  "tcp://0.0.0.0:9292"
   pidfile "/tmp/puma.pid"
   state_path "/tmp/puma.state"
   daemonize false
