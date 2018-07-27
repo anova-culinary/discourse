@@ -193,3 +193,5 @@ end
 
 # https://github.com/tzinfo/tzinfo/wiki/Resolving-TZInfo::DataSourceNotFound-Errors
 gem 'tzinfo-data'
+
+gem 'libv8', '~> 6.3.0'
